@@ -48,7 +48,7 @@
 
 .head-anime .first-anime-txt{
     font-size: 1rem;
-    animation: moveright 3s ease-in-out;
+    animation: moveright 2s ease-in-out;
 }
 
 .head-anime .first-anime-txt h1{
@@ -61,28 +61,28 @@
 }
 .head-anime img{
     width: 50%;
-    animation: moveleft 5s ease-in-out;
+    animation: moveleft 2s ease-in-out;
 }
 
 @keyframes moveright{
     0%{
         opacity: 0;
-        transform: translate(-10em);
+        transform: translateX(-5em);
     }
     100%{
         opacity: 1;
-        transform: translate(0);
+        transform: translateX(0);
     }
 }
 
 @keyframes moveleft{
     0%{
         opacity: 0;
-        transform: translate(1em);
+        transform: translateX(1em);
     }
     100%{
         opacity: 1;
-        transform: translate(0);
+        transform: translateX(0);
     }
 }
 
@@ -207,7 +207,7 @@ main{
 
 .section-2 .email-box input{
     width: 100%;
-    padding: 10px ;
+    padding: 15px  ;
     border-radius: 5px;
     outline: none;
     border: none;
@@ -228,4 +228,69 @@ main{
 }
 .section-2 .email-box button:hover{
     opacity: .6;
+}
+
+footer{
+    background-color: #070439;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.footer-container img{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.footer-container li{
+    list-style: none;
+}
+.foot-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.foot-content .df p{
+    margin-bottom: 20px;
+    font-size: 1.15em;
+}
+.foot-content .df .phone-number::before{
+    content: url(/images/icon-phone.svg);
+    margin-right: 15px;
+}
+.foot-content .df .mail::before{
+    content: url(/images/icon-email.svg);
+    margin-right: 15px;
+}
+
+.foot-content .kl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-content .kl ul li{
+    margin-bottom:15px;
+    font-size: 1.2em;
+}
+.foot-content .kl ul li:hover{
+    color: #2d286e;
+    font-weight: 100;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+.social li{
+    margin-left: 20px;
+}
+.social li img{
+    border-radius: 50%;
+    height: 30px;
+}
+.social li img:hover{
+    filter: saturate(2000%);
+    cursor: pointer;
 }
