@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+}
+
+.header-content, .head-anime{
+    margin:0 auto;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.nav-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .nav-sec .logo{
+    
+} */
+
+.nav-sec .links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-sec .links li{
+    margin-left: 2em;
+    font-size: 1.2em;
+}
+
+.nav-sec li:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* animation */
+
+.head-anime{
+    display: flex;
+    margin-top: 10em;
+    gap: 100px;
+}
+
+.head-anime .first-anime-txt{
+    font-size: 1rem;
+    animation: moveright 3s ease-in-out;
+}
+
+.head-anime .first-anime-txt h1{
+    margin-bottom: 10px;
+}
+
+.head-anime .first-anime-txt p{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.head-anime img{
+    width: 50%;
+    animation: moveleft 5s ease-in-out;
+}
+
+@keyframes moveright{
+    0%{
+        opacity: 0;
+        transform: translate(-10em);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveleft{
+    0%{
+        opacity: 0;
+        transform: translate(1em);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+.first-anime-txt .input-btn input{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 200px;
+    border: 1px solid black;
+}
+
+.first-anime-txt .input-btn button{
+    background-color: #3065f8;;
+    color: white;
+    padding: 12px 30px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.first-anime-txt .input-btn button:hover{
+   cursor: pointer;
+   opacity: .8;
+}
+
+/* head-sec ends */
+
