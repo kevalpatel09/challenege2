@@ -95,7 +95,7 @@
 }
 
 .first-anime-txt .input-btn button{
-    background-color: #3065f8;;
+    background-color: #3065f8;
     color: white;
     padding: 12px 30px;
     margin-left: 10px;
@@ -113,10 +113,11 @@
 
 
 /* main sec start */
+/* seec-1 start */
 main{
     margin-top: 10em;
 }
-section{
+.sec-1{
     background-image: url(/images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -173,4 +174,58 @@ section{
 
 .card-flex .qw{
     margin-left: 10px;
+}
+
+/* sec-2 start */
+.sec-2{
+    background-color: #585989;
+}
+
+.section-2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 .sec-2-txt{
+    width:40%;
+    color: white;
+}
+.section-2 .sec-2-txt p{
+    font-size: 1.1em;
+
+}
+
+.section-2 .sec-2-txt h1{
+    margin-bottom: 20px;
+}
+.section-2 .email-box{
+    width: 40%;
+}
+
+.section-2 .email-box input{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0.5rem 2rem rgb(0 0 0 / 20%);
+}
+.section-2 .email-box p{
+    color: white;
+    font-size: .8em;
+    margin-bottom: 20px;
+}
+
+.section-2 .email-box button{
+    background-color:#3065f8;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+}
+.section-2 .email-box button:hover{
+    opacity: .6;
 }
