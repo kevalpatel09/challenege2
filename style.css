@@ -110,3 +110,67 @@
 
 /* head-sec ends */
 
+
+
+/* main sec start */
+main{
+    margin-top: 10em;
+}
+section{
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 90px 0;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto; 
+}
+.container .txt-card{
+    width: 50%;
+}
+.container .txt-card h1{
+    font-size: 2em;
+}
+.container .txt-card p{
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+
+.container .txt-card a{
+    color: #3c9f8f;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+.container .second-img{
+    width: 40%;
+    align-self: center;
+    height: 400px;
+}
+
+.card{
+    width: 80%;
+    margin: 100px 0px;
+    box-shadow: 0 2rem 4rem rgb(0 0 0 / 20%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: 200;
+}
+
+.card .second-card-img{
+    border-radius: 50%;
+    height: 50px;
+}
+.card .first-card-img{
+    height: 20px;
+}
+
+.card-flex{
+    display: flex;
+}
+
+.card-flex .qw{
+    margin-left: 10px;
+}
